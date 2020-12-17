@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table, th, td{
+            /* 줄 모양을 실선으로 바꿈*/
+            border-collapse:collapse;
+        }
+    </style>
 </head>
 <body>
     <h1>Donggyu Kim</h1>
@@ -12,30 +18,34 @@
     <p>경북산업직업전문학교에서 공부중입니다.</p>
     <hr>
     <h2>Skills</h2>
-    <ol>
+    <ul>
         <li>HTML</li>
         <li>CSS</li>
         <li>JAVA</li>
         <li>Javascript</li>
         <li>C</li>
         <li>php</li>
-    </ol>
-    <ol>
+    </ul>
+    <h2>tools</h2>
+    <ul>
         <li>Visual Studio</li>
         <li>Visual Studio Code</li>
         <li>Eclipse</li>
         <li>Adobe efter effect</li>
-    </ol>
+    </ul>
 
     <h2>Academic</h2>
     <table border="1">
         <caption>학력사항</caption>
+        <thead>
         <tr>
             <th>출신학교</th>
             <th>전공</th>
             <th>기간</th>
             <th>졸업구분</th>
         </tr>
+        </thead>
+        <tbody>
         <tr>
             <td>ㅇㅇㅇ고등학교</td>
             <td>이과</td>
@@ -48,7 +58,7 @@
             <td>2011.3~2019.2</td>
             <td>졸업</td>
         </tr>
-
+        </tbody>
     </table>
 </body>
 </html>
